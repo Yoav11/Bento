@@ -16,6 +16,7 @@ struct IngredientRow: View {
             Text(ingredient.name)
             Spacer()
             Text("x \(ingredient.quantity)")
+            .foregroundColor(.gray)
         }
         .padding(.horizontal)
     }

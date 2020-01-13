@@ -16,20 +16,33 @@ struct QuantityButton: View {
             Button(action: {
                 self.ingredient.quantity-=1
             }) {
-                Text("minus")
+                Image(systemName: "minus")
+                .foregroundColor(.blue)
             }
+            
             Text("\(ingredient.quantity)")
+            .frame(width: 30, height: 10)
+            .padding(.horizontal, 5)
             Button(action: {
                 self.ingredient.quantity+=1
             }) {
-                Text("plus")
+                Image(systemName: "plus")
+                .foregroundColor(.blue)
             }
         }
+
     }
 }
 
 struct QuantityButton_Previews: PreviewProvider {
+    static let ingredient = Ingredient(
+        id: 0,
+        name: "Carrot",
+        imageName: "Carrot",
+        quantity: 0
+    )
+    
     static var previews: some View {
-        QuantityButton()
+        QuantityButton().environmentObject(ingredient)
     }
 }
