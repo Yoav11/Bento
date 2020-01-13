@@ -10,12 +10,19 @@
 		53CCDD4C23C8D948006AED5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD4B23C8D948006AED5D /* AppDelegate.swift */; };
 		53CCDD4E23C8D948006AED5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD4D23C8D948006AED5D /* SceneDelegate.swift */; };
 		53CCDD5123C8D948006AED5D /* Bento.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD4F23C8D948006AED5D /* Bento.xcdatamodeld */; };
-		53CCDD5323C8D948006AED5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD5223C8D948006AED5D /* ContentView.swift */; };
 		53CCDD5523C8D949006AED5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CCDD5423C8D949006AED5D /* Assets.xcassets */; };
 		53CCDD5823C8D949006AED5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CCDD5723C8D949006AED5D /* Preview Assets.xcassets */; };
 		53CCDD5B23C8D949006AED5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CCDD5923C8D949006AED5D /* LaunchScreen.storyboard */; };
 		53CCDD6623C8D94A006AED5D /* BentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD6523C8D94A006AED5D /* BentoTests.swift */; };
 		53CCDD7123C8D94A006AED5D /* BentoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD7023C8D94A006AED5D /* BentoUITests.swift */; };
+		53CCDD8223C8DD40006AED5D /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD8123C8DD40006AED5D /* Ingredient.swift */; };
+		53CCDD8423C8E092006AED5D /* IngredientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD8323C8E092006AED5D /* IngredientRow.swift */; };
+		53CCDD8723C8E36A006AED5D /* ingredientData.json in Resources */ = {isa = PBXBuildFile; fileRef = 53CCDD8623C8E36A006AED5D /* ingredientData.json */; };
+		53CCDD8B23C8E510006AED5D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD8A23C8E510006AED5D /* Data.swift */; };
+		53CCDD9223C909A0006AED5D /* IngredientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9123C909A0006AED5D /* IngredientList.swift */; };
+		53CCDD9423CC76FD006AED5D /* IngredientAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9323CC76FD006AED5D /* IngredientAdd.swift */; };
+		53CCDD9623CC90B5006AED5D /* IngredientAddRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9523CC90B5006AED5D /* IngredientAddRow.swift */; };
+		53CCDD9823CC9260006AED5D /* QuantityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9723CC9260006AED5D /* QuantityButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +47,6 @@
 		53CCDD4B23C8D948006AED5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53CCDD4D23C8D948006AED5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		53CCDD5023C8D948006AED5D /* Bento.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bento.xcdatamodel; sourceTree = "<group>"; };
-		53CCDD5223C8D948006AED5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53CCDD5423C8D949006AED5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CCDD5723C8D949006AED5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53CCDD5A23C8D949006AED5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 		53CCDD6C23C8D94A006AED5D /* BentoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BentoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CCDD7023C8D94A006AED5D /* BentoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoUITests.swift; sourceTree = "<group>"; };
 		53CCDD7223C8D94A006AED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CCDD8123C8DD40006AED5D /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		53CCDD8323C8E092006AED5D /* IngredientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRow.swift; sourceTree = "<group>"; };
+		53CCDD8623C8E36A006AED5D /* ingredientData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ingredientData.json; sourceTree = "<group>"; };
+		53CCDD8A23C8E510006AED5D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		53CCDD9123C909A0006AED5D /* IngredientList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientList.swift; sourceTree = "<group>"; };
+		53CCDD9323CC76FD006AED5D /* IngredientAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientAdd.swift; sourceTree = "<group>"; };
+		53CCDD9523CC90B5006AED5D /* IngredientAddRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientAddRow.swift; sourceTree = "<group>"; };
+		53CCDD9723CC9260006AED5D /* QuantityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +115,19 @@
 		53CCDD4A23C8D948006AED5D /* Bento */ = {
 			isa = PBXGroup;
 			children = (
+				53CCDD7E23C8DCBC006AED5D /* Models */,
 				53CCDD4B23C8D948006AED5D /* AppDelegate.swift */,
 				53CCDD4D23C8D948006AED5D /* SceneDelegate.swift */,
-				53CCDD5223C8D948006AED5D /* ContentView.swift */,
+				53CCDD8323C8E092006AED5D /* IngredientRow.swift */,
+				53CCDD9123C909A0006AED5D /* IngredientList.swift */,
+				53CCDD9523CC90B5006AED5D /* IngredientAddRow.swift */,
+				53CCDD9723CC9260006AED5D /* QuantityButton.swift */,
+				53CCDD9323CC76FD006AED5D /* IngredientAdd.swift */,
 				53CCDD5423C8D949006AED5D /* Assets.xcassets */,
 				53CCDD5923C8D949006AED5D /* LaunchScreen.storyboard */,
 				53CCDD5C23C8D949006AED5D /* Info.plist */,
 				53CCDD4F23C8D948006AED5D /* Bento.xcdatamodeld */,
+				53CCDD8523C8E33B006AED5D /* Resources */,
 				53CCDD5623C8D949006AED5D /* Preview Content */,
 			);
 			path = Bento;
@@ -137,6 +157,23 @@
 				53CCDD7223C8D94A006AED5D /* Info.plist */,
 			);
 			path = BentoUITests;
+			sourceTree = "<group>";
+		};
+		53CCDD7E23C8DCBC006AED5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53CCDD8123C8DD40006AED5D /* Ingredient.swift */,
+				53CCDD8A23C8E510006AED5D /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53CCDD8523C8E33B006AED5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53CCDD8623C8E36A006AED5D /* ingredientData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +282,7 @@
 			files = (
 				53CCDD5B23C8D949006AED5D /* LaunchScreen.storyboard in Resources */,
 				53CCDD5823C8D949006AED5D /* Preview Assets.xcassets in Resources */,
+				53CCDD8723C8E36A006AED5D /* ingredientData.json in Resources */,
 				53CCDD5523C8D949006AED5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CCDD9823CC9260006AED5D /* QuantityButton.swift in Sources */,
+				53CCDD9423CC76FD006AED5D /* IngredientAdd.swift in Sources */,
+				53CCDD8423C8E092006AED5D /* IngredientRow.swift in Sources */,
+				53CCDD9223C909A0006AED5D /* IngredientList.swift in Sources */,
+				53CCDD8B23C8E510006AED5D /* Data.swift in Sources */,
+				53CCDD9623CC90B5006AED5D /* IngredientAddRow.swift in Sources */,
 				53CCDD5123C8D948006AED5D /* Bento.xcdatamodeld in Sources */,
 				53CCDD4C23C8D948006AED5D /* AppDelegate.swift in Sources */,
-				53CCDD5323C8D948006AED5D /* ContentView.swift in Sources */,
+				53CCDD8223C8DD40006AED5D /* Ingredient.swift in Sources */,
 				53CCDD4E23C8D948006AED5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
