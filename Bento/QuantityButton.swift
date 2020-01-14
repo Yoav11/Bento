@@ -17,7 +17,7 @@ struct QuantityButton: View {
                 self.ingredient.quantity-=1
             }) {
                 Image(systemName: "minus")
-                .foregroundColor(.blue)
+                .foregroundColor(.red)
             }
             
             Text("\(ingredient.quantity)")
@@ -27,7 +27,7 @@ struct QuantityButton: View {
                 self.ingredient.quantity+=1
             }) {
                 Image(systemName: "plus")
-                .foregroundColor(.blue)
+                .foregroundColor(.red)
             }
         }
 

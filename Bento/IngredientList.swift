@@ -29,7 +29,7 @@ struct IngredientList: View {
                     Image(systemName: "plus")
                     .resizable()
                     .frame(width:15, height: 15)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.red)
                     .padding(.horizontal)
                 }
                 .padding()

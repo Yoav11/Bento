@@ -23,6 +23,9 @@
 		53CCDD9423CC76FD006AED5D /* IngredientAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9323CC76FD006AED5D /* IngredientAdd.swift */; };
 		53CCDD9623CC90B5006AED5D /* IngredientAddRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9523CC90B5006AED5D /* IngredientAddRow.swift */; };
 		53CCDD9823CC9260006AED5D /* QuantityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9723CC9260006AED5D /* QuantityButton.swift */; };
+		53CCDD9A23CDF811006AED5D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9923CDF811006AED5D /* Home.swift */; };
+		53CCDD9C23CDFD78006AED5D /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9B23CDFD78006AED5D /* Calendar.swift */; };
+		53CCDD9E23CE017F006AED5D /* WeekTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCDD9D23CE017F006AED5D /* WeekTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		53CCDD9323CC76FD006AED5D /* IngredientAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientAdd.swift; sourceTree = "<group>"; };
 		53CCDD9523CC90B5006AED5D /* IngredientAddRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientAddRow.swift; sourceTree = "<group>"; };
 		53CCDD9723CC9260006AED5D /* QuantityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityButton.swift; sourceTree = "<group>"; };
+		53CCDD9923CDF811006AED5D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		53CCDD9B23CDFD78006AED5D /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		53CCDD9D23CE017F006AED5D /* WeekTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 				53CCDD8323C8E092006AED5D /* IngredientRow.swift */,
 				53CCDD9123C909A0006AED5D /* IngredientList.swift */,
 				53CCDD9523CC90B5006AED5D /* IngredientAddRow.swift */,
+				53CCDD9923CDF811006AED5D /* Home.swift */,
+				53CCDD9B23CDFD78006AED5D /* Calendar.swift */,
+				53CCDD9D23CE017F006AED5D /* WeekTitle.swift */,
 				53CCDD9723CC9260006AED5D /* QuantityButton.swift */,
 				53CCDD9323CC76FD006AED5D /* IngredientAdd.swift */,
 				53CCDD5423C8D949006AED5D /* Assets.xcassets */,
@@ -308,12 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53CCDD9E23CE017F006AED5D /* WeekTitle.swift in Sources */,
 				53CCDD9823CC9260006AED5D /* QuantityButton.swift in Sources */,
 				53CCDD9423CC76FD006AED5D /* IngredientAdd.swift in Sources */,
 				53CCDD8423C8E092006AED5D /* IngredientRow.swift in Sources */,
+				53CCDD9A23CDF811006AED5D /* Home.swift in Sources */,
 				53CCDD9223C909A0006AED5D /* IngredientList.swift in Sources */,
 				53CCDD8B23C8E510006AED5D /* Data.swift in Sources */,
 				53CCDD9623CC90B5006AED5D /* IngredientAddRow.swift in Sources */,
+				53CCDD9C23CDFD78006AED5D /* Calendar.swift in Sources */,
 				53CCDD5123C8D948006AED5D /* Bento.xcdatamodeld in Sources */,
 				53CCDD4C23C8D948006AED5D /* AppDelegate.swift in Sources */,
 				53CCDD8223C8DD40006AED5D /* Ingredient.swift in Sources */,

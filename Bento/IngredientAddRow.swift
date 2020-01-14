@@ -22,7 +22,14 @@ struct IngredientAddRow: View {
 }
 
 struct IngredientAddRow_Previews: PreviewProvider {
+    static let ingredient = Ingredient(
+        id: 0,
+        name: "Carrot",
+        imageName: "Carrot",
+        quantity: 0
+    )
+    
     static var previews: some View {
-        IngredientAddRow()
+        IngredientAddRow().environmentObject(ingredient)
     }
 }

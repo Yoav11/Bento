@@ -21,9 +21,15 @@ struct IngredientAdd: View {
                         .buttonStyle(BorderlessButtonStyle())
                     }
                 }
-                Button("create ingredient") {
+                
+                NavigationLink(destination: Home()) {
+                    Text("create ingredient")
+                        .foregroundColor(.red)
                     
                 }
+                .buttonStyle(PlainButtonStyle())
+                .padding()
+                
                 
             }
             
@@ -32,6 +38,7 @@ struct IngredientAdd: View {
                 Button("Done") {
                     self.presentationMode.wrappedValue.dismiss()
                 }
+                .foregroundColor(.red)
                 .padding()
             )
         }
@@ -39,7 +46,14 @@ struct IngredientAdd: View {
 }
 
 struct IngredientAdd_Previews: PreviewProvider {
+    static let ingredient = Ingredient(
+        id: 0,
+        name: "Carrot",
+        imageName: "Carrot",
+        quantity: 0
+    )
+    
     static var previews: some View {
-        IngredientAdd(ingredients: ingredientData)
+        IngredientAdd(ingredients: ingredientData).environmentObject(ingredient)
     }
 }
